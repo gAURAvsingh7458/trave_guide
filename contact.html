@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="cuisine.html">CUISINE</a>
+            <a href="north-india.html">NORTH INDIA</a>
+            <a href="south-india.html">SOUTH INDIA</a>
+            <a href="travel-tips.html">TRAVEL TIPS</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+    <hr>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <div class="overlay">
+            <h1>Contact Us</h1>
+            <p>We are here to help you explore India!</p>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <h2>Get in Touch</h2>
+        <p>Have questions, suggestions, or need travel help? Fill out the contact form or reach us using the details below.</p>
+
+        <!-- CONTACT FORM -->
+        <div style="
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(5px);
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 20px;
+        ">
+            <form>
+                <label for="name"><strong>Name:</strong></label><br>
+                <input type="text" id="name" required
+                    style="width: 100%; padding: 10px; margin-top: 5px; margin-bottom: 15px; border-radius: 5px; border: none;">
+
+                <label for="email"><strong>Email:</strong></label><br>
+                <input type="email" id="email" required
+                    style="width: 100%; padding: 10px; margin-top: 5px; margin-bottom: 15px; border-radius: 5px; border: none;">
+
+                <label for="msg"><strong>Message:</strong></label><br>
+                <textarea id="msg" rows="5" required
+                    style="width: 100%; padding: 10px; margin-top: 5px; border-radius: 5px; border: none;"></textarea>
+
+                <button type="submit"
+                    style="
+                        margin-top: 15px;
+                        padding: 10px 20px;
+                        background: rgb(255, 210, 140);
+                        border: none;
+                        color: black;
+                        font-weight: bold;
+                        cursor: pointer;
+                        border-radius: 5px;
+                    ">
+                    Send Message
+                </button>
+            </form>
+        </div>
+
+        <h2 style="margin-top: 30px;">Contact Information</h2>
+        <ul>
+            <li><strong>Email:</strong> support@travelguide.in</li>
+            <li><strong>Phone:</strong> +91 98765 54321</li>
+            <li><strong>Address:</strong> New Delhi, India</li>
+        </ul>
+
+        <h2>Location Map</h2>
+        <div style="margin-top: 10px; display: flex; justify-content: center;">
+            <!-- Placeholder Map -->
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11610098018!2d72.74109984463535!3d19.08250200659964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63cf3d06f3b%3A0xb30b8f64c685ec2!2sMumbai!5e0!3m2!1sen!2sin!4v1703412345678" 
+                width="100%" 
+                height="300" 
+                style="border:0; border-radius: 10px;"
+                allowfullscreen="">
+            </iframe>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p><strong>Travel Guide © 2025</strong></p>
+        <p>Email: support@travelguide.in | Phone: +91 98765 54321</p>
+    </footer>
+
+</body>
+
+</html>
